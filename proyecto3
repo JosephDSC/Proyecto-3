@@ -1,0 +1,1754 @@
+from tkinter import *
+
+
+
+def numeros3():
+
+    onexw = 1
+
+    fila1x=Button(ventana ,width =3 , font= ("helvetica" , 24) , command= ax)
+    
+    fila1x.configure(state = "active")
+
+
+    fila1x.grid(row=4 , column=0)
+
+
+
+
+    fila11xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command=bxw)  #2
+
+    
+    fila11xw.configure(state = "active")
+
+    fila11xw.grid(row=6 , column=0)
+
+    
+
+
+    fila12xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,command = ccxw) #3
+
+    
+    fila12xw.configure(state = "active")
+        
+    fila12xw.grid(row= 8, column=0)
+    #-----------------------------------------------------------------------------------------------------------
+
+    fila13xw=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =dxw)  #4
+
+    
+    fila13xw.configure(state = "active")
+    fila13xw.grid(row=10 , column=0)
+
+
+
+    fila14xw=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =exw)  #5
+
+    
+    fila14xw.configure(state = "active")
+    fila14xw.grid(row=12 , column=0)
+
+
+
+    
+
+
+
+    #SEGUNDA FILA
+
+    fil1xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = fxw)
+
+    fil1xw.configure(state = "active")
+
+    
+    fil1xw.grid(row=4 , column=1)
+
+
+
+    fil11xw=Button(ventana , width = 3 ,font= ("helvetica" , 24)  , command = gxw)
+    fil11xw.configure(state = "active")
+    fil11xw.grid(row=6 , column=1)
+
+
+
+    fil12xw=Button(ventana , width = 3, font= ("helvetica" , 24) , command = hxw )
+
+    fil12xw.configure(state = "active")
+    fil12xw.grid(row=8 , column=1)
+
+
+    fil13xw=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ixw)
+    fil13xw.configure(state = "active")
+    fil13xw.grid(row=10 , column=1)
+
+
+    fil14xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = jxw )
+    fil14xw.configure(state = "active")
+    fil14xw.grid(row=12 , column=1)
+
+
+
+    #TERCER FILA VERTICAL
+
+    #TERCER FILA VERTICAL
+
+
+    fl1xw=Button(ventana   , width = 3 , font= ("helvetica" , 24) , command= kxw ) #1
+    if len(acti)==1:
+        fl1xw.configure(state = "active")
+    fl1xw.grid(row=4 , column=2)
+
+
+
+    fl11xw=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ), command =mxw)  #2
+    if len(acti)==1:
+        fl11xw.configure(state = "active")
+    fl11xw.grid(row=6 , column=2)
+
+
+    fl12xw=Button(ventana   , width = 3, font= ("helvetica" , 24 ), command = nxw)  #3
+    if len(acti)==1:
+        fl12xw.configure(state = "active")
+    fl12xw.grid(row=8 , column=2)
+
+    fl13xw=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ñxw)   #4
+    if len(acti)==1:
+        fl13xw.configure(state = "active")
+    fl13xw.grid(row=10 , column=2)
+
+    fl14xw=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = oxw)   #5
+    if len(acti)==1:
+        fl14xw.configure(state = "active")
+    fl14xw.grid(row=12 , column=2)
+
+
+
+    #CUARTO FILA VERTICAL
+
+
+    unoxw=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ), command=pxw)
+
+    if len(acti)==1:
+        unoxw.configure(state = "disabled")
+    unoxw.grid(row=4 , column=3)
+
+
+
+    uno1xw=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ), command = qxw)
+
+    if len(acti)==1:
+        uno1xw.configure(state = "active")
+    uno1xw.grid(row=6 , column=3)
+
+
+
+    uno2xw=Button(ventana  , width = 3, font= ("helvetica" , 24 ), command= rxw)
+    if len(acti)==1:
+        uno2xw.configure(state = "active")
+    uno2xw.grid(row=8 , column=3)
+
+
+    uno3xw=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command=sxw)
+    if len(acti)==1:
+        uno3xw.configure(state = "active")
+    uno3xw.grid(row=10 , column=3)
+
+
+    uno4xw=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command =txw)
+    if len(acti)==1:
+        uno4xw.configure(state = "active")
+    uno4xw.grid(row=12 , column=3)
+
+
+
+
+    #QUINTA FILA VERTICAL
+
+
+
+    uno1x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =uxw)   #1
+    if len(acti)==1:
+        uno1x.configure(state = "active")
+    uno1x.grid(row=4 , column=4)
+
+
+
+    uno11xw=Button(ventana , width = 3 ,font= ("helvetica" , 24) , command = vxw)   #2
+    if len(acti)==1:
+        uno11xw.configure(state = "active")
+    uno11xw.grid(row=6 , column=4)
+
+
+
+    uno21xw=Button(ventana , width = 3, font= ("helvetica" , 24) , command = wxw)    #3
+    if len(acti)==1:
+        uno21xw.configure(state = "active")
+    uno21xw.grid(row=8 , column=4)
+
+
+    uno31xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command =xxw)   #4
+    if len(acti)==1:
+        uno31xw.configure(state = "active")
+    uno31xw.grid(row=10 , column=4)
+
+
+    uno41xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = yxw)    #5
+
+    if len(acti)==1:
+        uno41xw.configure(state = "active")
+    uno41xw.grid(row=12 , column=4)
+
+
+def axw ():
+    fila1xw=Button(ventana ,width =3 , font= ("helvetica" , 24) ,text="3" ,  command= axw)
+    fila1xw.configure(state = "active")
+    fila1xw.grid(row=4 , column=0)
+    return
+
+
+
+def bxw ():
+    fila11xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text="3" ,  command=bxw)  #2
+    fila11xw.configure(state = "active")
+    fila11xw.grid(row=6 , column=0)
+
+
+def ccxw ():
+    fila12xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "3" , command= ccxw) #3
+    fila12xw.configure(state = "active")
+        
+    fila12xw.grid(row= 8, column=0)
+
+
+def dxw ():
+
+    fila13xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="3" ,  command =dxw)  #4
+
+    
+    fila13xw.configure(state = "active")
+    fila13xw.grid(row=10 , column=0)
+
+def exw ():
+
+    fila14xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="3" ,  command =exw)  #5
+
+    
+    fila14xw.configure(state = "active")
+    fila14xw.grid(row=12 , column=0)
+
+def fxw ():
+    fil1xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text="3" ,  command = fxw)
+
+    fil1xw.configure(state = "active")
+
+    
+    fil1xw.grid(row=4 , column=1)
+
+def gxw():
+    fil11xw=Button(ventana , width = 3 ,font= ("helvetica" , 24) , text ="3" , command = gxw)
+    fil11xw.configure(state = "active")
+    fil11xw.grid(row=6 , column=1)
+
+
+def hxw():
+    fil12xw=Button(ventana , width = 3, font= ("helvetica" , 24) , text = "3"  , command = hxw )
+
+    fil12xw.configure(state = "active")
+    fil12xw.grid(row=8 , column=1)
+
+    
+
+def ixw():
+    fil13x=Button(ventana , width = 3 , font= ("helvetica" , 24) , text = "3"  ,command = ixw)
+    fil13x.configure(state = "active")
+    fil13x.grid(row=10 , column=1)
+
+
+def jxw ():
+
+    fil14x=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text ="3" ,  command = jxw )
+    fil14x.configure(state = "active")
+    fil14x.grid(row=12 , column=1)
+
+
+#TERCERA FILA
+
+
+def kxw ():
+    fl1xw=Button(ventana   , width = 3 , font= ("helvetica" , 24) , text="3" ,command= kxw ) #1
+    fl1xw.configure(state = "active")
+    fl1xw.grid(row=4 , column=2)
+
+def mxw():
+    fl11xw=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ),text="3" ,  command =mxw )  #2
+    
+    fl11xw.configure(state = "active")
+    fl11xw.grid(row=6 , column=2)
+
+def nxw ():
+    fl12xw=Button(ventana   , width = 3, font= ("helvetica" , 24 ),text="3" , command = nxw )   #3
+    
+    fl12xw.configure(state = "active")
+    fl12xw.grid(row=8 , column=2)
+    
+
+def ñxw():
+    fl13xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text="3" , command = ñxw)   #4
+    fl13xw.configure(state = "active")
+    fl13xw.grid(row=10 , column=2)
+
+    
+
+def oxw():
+    fl14xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="3" ,  command = oxw)   #5
+    
+    fl14xw.configure(state = "active")
+    fl14xw.grid(row=12 , column=2)
+
+def pxw():
+    unoxw=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ) , text="3" , command =pxw)
+
+   
+    unoxw.configure(state = "disabled")
+    unoxw.grid(row=4 , column=3)
+
+
+def qxw():
+
+    uno1xw=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ) ,text ="3" ,  command = qxw)
+
+    
+    uno1xw.configure(state = "active")
+    uno1xw.grid(row=6 , column=3)
+
+    
+
+def rxw():
+    uno2xw=Button(ventana  , width = 3, font= ("helvetica" , 24 ) , text ="3" , command = rxw)
+    uno2xw.configure(state = "active")
+    uno2xw.grid(row=8 , column=3)
+
+def sxw ():
+    uno3xw=Button(ventana  , width = 3 , font= ("helvetica" , 24 , ) , text ="3" ,command=sxw  )
+    
+    uno3xw.configure(state = "active")
+    uno3xw.grid(row=10 , column=3)
+
+
+    
+    
+
+def txw ():
+    uno4xw=Button(ventana  , width = 3 , font= ("helvetica" , 24 ) , text ="3"  , command =txw)
+    
+    uno4xw.configure(state = "active")
+    uno4xw.grid(row=12 , column=3)
+
+def uxw():
+
+    uno1xw=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "3" ,  command =uxw)   #1
+    
+    uno1xw.configure(state = "active")
+    uno1xw.grid(row=4 , column=4)
+
+def vxw ():
+    uno11xw=Button(ventana , width = 3 ,font= ("helvetica" , 24) ,text="3" ,  command = vxw)   #2
+    
+    uno11xw.configure(state = "active")
+    uno11xw.grid(row=6 , column=4)
+
+def wxw ():
+
+    uno21x=wButton(ventana , width = 3, font= ("helvetica" , 24) ,text ="3" ,  command = wxw)    #3
+    uno21xw.configure(state = "active")
+    uno21xw.grid(row=8 , column=4)
+
+    
+
+def xxw():
+
+    
+    uno31xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text ="3" , command =xxw)   #4
+    
+    uno31xw.configure(state = "active")
+    uno31xw.grid(row=10 , column=4)
+
+def yxw():
+
+    uno41xw=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text = "3" , command = yxw )    #5
+
+   
+    uno41xw.configure(state = "active")
+    uno41xw.grid(row=12 , column=4)
+
+
+
+
+    
+    
+
+
+
+def numeros2():
+
+    onex = 1
+
+    fila1x=Button(ventana ,width =3 , font= ("helvetica" , 24) , command= ax)
+    
+    fila1x.configure(state = "active")
+
+
+    fila1x.grid(row=4 , column=0)
+
+
+
+
+    fila11x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command=bx)  #2
+
+    
+    fila11x.configure(state = "active")
+
+    fila11x.grid(row=6 , column=0)
+
+    
+
+
+    fila12x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,command = ccx) #3
+
+    
+    fila12x.configure(state = "active")
+        
+    fila12x.grid(row= 8, column=0)
+    #-----------------------------------------------------------------------------------------------------------
+
+    fila13x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =dx)  #4
+
+    
+    fila13x.configure(state = "active")
+    fila13x.grid(row=10 , column=0)
+
+
+
+    fila14x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =ex)  #5
+
+    
+    fila14x.configure(state = "active")
+    fila14x.grid(row=12 , column=0)
+
+
+
+    
+
+
+
+    #SEGUNDA FILA
+
+    fil1x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = fx)
+
+    fil1x.configure(state = "active")
+
+    
+    fil1x.grid(row=4 , column=1)
+
+
+
+    fil11x=Button(ventana , width = 3 ,font= ("helvetica" , 24)  , command = gx)
+    fil11x.configure(state = "active")
+    fil11x.grid(row=6 , column=1)
+
+
+
+    fil12x=Button(ventana , width = 3, font= ("helvetica" , 24) , command = hx )
+
+    fil12x.configure(state = "active")
+    fil12x.grid(row=8 , column=1)
+
+
+    fil13x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ix)
+    fil13x.configure(state = "active")
+    fil13x.grid(row=10 , column=1)
+
+
+    fil14x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = jx )
+    fil14x.configure(state = "active")
+    fil14x.grid(row=12 , column=1)
+
+
+
+    #TERCER FILA VERTICAL
+
+    #TERCER FILA VERTICAL
+
+
+    fl1x=Button(ventana   , width = 3 , font= ("helvetica" , 24) , command= kx ) #1
+    if len(acti)==1:
+        fl1x.configure(state = "active")
+    fl1x.grid(row=4 , column=2)
+
+
+
+    fl11x=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ), command =mx)  #2
+    if len(acti)==1:
+        fl11x.configure(state = "active")
+    fl11x.grid(row=6 , column=2)
+
+
+    fl12x=Button(ventana   , width = 3, font= ("helvetica" , 24 ), command = nx)  #3
+    if len(acti)==1:
+        fl12x.configure(state = "active")
+    fl12x.grid(row=8 , column=2)
+
+    fl13x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ñx)   #4
+    if len(acti)==1:
+        fl13x.configure(state = "active")
+    fl13x.grid(row=10 , column=2)
+
+    fl14x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ox)   #5
+    if len(acti)==1:
+        fl14x.configure(state = "active")
+    fl14x.grid(row=12 , column=2)
+
+
+
+    #CUARTO FILA VERTICAL
+
+
+    unox=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ), command=px)
+
+    if len(acti)==1:
+        unox.configure(state = "disabled")
+    unox.grid(row=4 , column=3)
+
+
+
+    uno1x=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ), command = qx)
+
+    if len(acti)==1:
+        uno1x.configure(state = "active")
+    uno1x.grid(row=6 , column=3)
+
+
+
+    uno2x=Button(ventana  , width = 3, font= ("helvetica" , 24 ), command= rx)
+    if len(acti)==1:
+        uno2x.configure(state = "active")
+    uno2x.grid(row=8 , column=3)
+
+
+    uno3x=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command=sx )
+    if len(acti)==1:
+        uno3x.configure(state = "active")
+    uno3x.grid(row=10 , column=3)
+
+
+    uno4x=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command =tx)
+    if len(acti)==1:
+        uno4x.configure(state = "active")
+    uno4x.grid(row=12 , column=3)
+
+
+
+
+    #QUINTA FILA VERTICAL
+
+
+
+    uno1x=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =ux)   #1
+    if len(acti)==1:
+        uno1x.configure(state = "active")
+    uno1x.grid(row=4 , column=4)
+
+
+
+    uno11x=Button(ventana , width = 3 ,font= ("helvetica" , 24) , command = vx)   #2
+    if len(acti)==1:
+        uno11x.configure(state = "active")
+    uno11x.grid(row=6 , column=4)
+
+
+
+    uno21x=Button(ventana , width = 3, font= ("helvetica" , 24) , command = wx)    #3
+    if len(acti)==1:
+        uno21x.configure(state = "active")
+    uno21x.grid(row=8 , column=4)
+
+
+    uno31x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command =xx)   #4
+    if len(acti)==1:
+        uno31x.configure(state = "active")
+    uno31x.grid(row=10 , column=4)
+
+
+    uno41x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = yx)    #5
+
+    if len(acti)==1:
+        uno41x.configure(state = "active")
+    uno41x.grid(row=12 , column=4)
+
+
+def ax ():
+    fila1x=Button(ventana ,width =3 , font= ("helvetica" , 24) ,text="2" ,  command= a)
+    fila1x.configure(state = "active")
+    fila1x.grid(row=4 , column=0)
+    return
+
+
+
+def bx ():
+    fila11x=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text="2" ,  command=b)  #2
+    fila11x.configure(state = "active")
+    fila11x.grid(row=6 , column=0)
+
+
+def ccx ():
+    fila12x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "2" , command= cc) #3
+    fila12x.configure(state = "active")
+        
+    fila12x.grid(row= 8, column=0)
+
+
+def dx ():
+
+    fila13x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="2" ,  command =d)  #4
+
+    
+    fila13x.configure(state = "active")
+    fila13x.grid(row=10 , column=0)
+
+def ex ():
+
+    fila14x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="2" ,  command =e)  #5
+
+    
+    fila14x.configure(state = "active")
+    fila14x.grid(row=12 , column=0)
+
+def fx ():
+    fil1x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text="2" ,  command = f)
+
+    fil1x.configure(state = "active")
+
+    
+    fil1x.grid(row=4 , column=1)
+
+def gx():
+    fil11x=Button(ventana , width = 3 ,font= ("helvetica" , 24) , text ="2" , command = g)
+    fil11x.configure(state = "active")
+    fil11x.grid(row=6 , column=1)
+
+
+def hx():
+    fil12x=Button(ventana , width = 3, font= ("helvetica" , 24) , text = "2"  , command = h )
+
+    fil12x.configure(state = "active")
+    fil12x.grid(row=8 , column=1)
+
+    
+
+def ix():
+    fil13x=Button(ventana , width = 3 , font= ("helvetica" , 24) , text = "1"  ,command = i)
+    fil13x.configure(state = "active")
+    fil13x.grid(row=10 , column=1)
+
+
+def jx ():
+
+    fil14x=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text ="1" ,  command = j )
+    fil14x.configure(state = "active")
+    fil14x.grid(row=12 , column=1)
+
+
+#TERCERA FILA
+
+
+def kx ():
+    fl1x=Button(ventana   , width = 3 , font= ("helvetica" , 24) , text="2" ,command= k ) #1
+    fl1x.configure(state = "active")
+    fl1x.grid(row=4 , column=2)
+
+def mx():
+    fl11x=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ),text="2" ,  command =m )  #2
+    
+    fl11x.configure(state = "active")
+    fl11x.grid(row=6 , column=2)
+
+def nx ():
+    fl12x=Button(ventana   , width = 3, font= ("helvetica" , 24 ),text="2" , command = n )   #3
+    
+    fl12x.configure(state = "active")
+    fl12x.grid(row=8 , column=2)
+    
+
+def ñx():
+    fl13x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text="2" , command = ñ)   #4
+    fl13x.configure(state = "active")
+    fl13x.grid(row=10 , column=2)
+
+    
+
+def ox():
+    fl14x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="2" ,  command = o)   #5
+    
+    fl14x.configure(state = "active")
+    fl14x.grid(row=12 , column=2)
+
+def px():
+    unox=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ) , text="2" , command =p)
+
+   
+    unox.configure(state = "disabled")
+    unox.grid(row=4 , column=3)
+
+
+def qx():
+
+    uno1x=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ) ,text ="2" ,  command = q)
+
+    
+    uno1x.configure(state = "active")
+    uno1x.grid(row=6 , column=3)
+
+    
+
+def rx():
+    uno2x=Button(ventana  , width = 3, font= ("helvetica" , 24 ) , text ="2" , command = r)
+    uno2x.configure(state = "active")
+    uno2x.grid(row=8 , column=3)
+
+def sx ():
+    uno3x=Button(ventana  , width = 3 , font= ("helvetica" , 24 , ) , text ="2" ,command=s  )
+    
+    uno3x.configure(state = "active")
+    uno3x.grid(row=10 , column=3)
+
+
+    
+    
+
+def tx ():
+    uno4x=Button(ventana  , width = 3 , font= ("helvetica" , 24 ) , text ="2"  , command =t)
+    
+    uno4x.configure(state = "active")
+    uno4x.grid(row=12 , column=3)
+
+def ux():
+
+    uno1x=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "2" ,  command =u)   #1
+    
+    uno1x.configure(state = "active")
+    uno1x.grid(row=4 , column=4)
+
+def vx ():
+    uno11x=Button(ventana , width = 3 ,font= ("helvetica" , 24) ,text="2" ,  command = v)   #2
+    
+    uno11x.configure(state = "active")
+    uno11x.grid(row=6 , column=4)
+
+def wx ():
+
+    uno21x=Button(ventana , width = 3, font= ("helvetica" , 24) ,text ="2" ,  command = w)    #3
+    uno21x.configure(state = "active")
+    uno21x.grid(row=8 , column=4)
+
+    
+
+def xx():
+
+    
+    uno31x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text ="2" , command =x)   #4
+    
+    uno31x.configure(state = "active")
+    uno31x.grid(row=10 , column=4)
+
+def yx():
+
+    uno41x=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text = "2" , command = y )    #5
+
+   
+    uno41x.configure(state = "active")
+    uno41x.grid(row=12 , column=4)
+
+
+
+
+    
+
+
+
+def a ():
+    fila1=Button(ventana ,width =3 , font= ("helvetica" , 24) ,text="1" ,  command= a)
+    fila1.configure(state = "active")
+    fila1.grid(row=4 , column=0)
+    return
+
+
+
+def b ():
+    fila11=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text="1" ,  command=b)  #2
+    fila11.configure(state = "active")
+    fila11.grid(row=6 , column=0)
+
+
+def cc ():
+    fila12=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "1" , command= cc) #3
+    fila12.configure(state = "active")
+        
+    fila12.grid(row= 8, column=0)
+
+
+def d ():
+
+    fila13=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="1" ,  command =d)  #4
+
+    
+    fila13.configure(state = "active")
+    fila13.grid(row=10 , column=0)
+
+def e ():
+
+    fila14=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="1" ,  command =e)  #5
+
+    
+    fila14.configure(state = "active")
+    fila14.grid(row=12 , column=0)
+
+def f ():
+    fil1=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text="1" ,  command = f)
+
+    fil1.configure(state = "active")
+
+    
+    fil1.grid(row=4 , column=1)
+
+def g():
+    fil11=Button(ventana , width = 3 ,font= ("helvetica" , 24) , text ="1" , command = g)
+    fil11.configure(state = "active")
+    fil11.grid(row=6 , column=1)
+
+
+def h():
+    fil12=Button(ventana , width = 3, font= ("helvetica" , 24) , text = "1"  , command = h )
+
+    fil12.configure(state = "active")
+    fil12.grid(row=8 , column=1)
+
+    
+
+def i():
+    fil13=Button(ventana , width = 3 , font= ("helvetica" , 24) , text = "1"  ,command = i)
+    fil13.configure(state = "active")
+    fil13.grid(row=10 , column=1)
+
+
+def j ():
+
+    fil14=Button(ventana  , width = 3 , font= ("helvetica" , 24) ,text ="1" ,  command = j )
+    fil14.configure(state = "active")
+    fil14.grid(row=12 , column=1)
+
+
+#TERCERA FILA
+
+
+def k ():
+    fl1=Button(ventana   , width = 3 , font= ("helvetica" , 24) , text="1" ,command= k ) #1
+    fl1.configure(state = "active")
+    fl1.grid(row=4 , column=2)
+
+def m():
+    fl11=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ),text="1" ,  command =m )  #2
+    
+    fl11.configure(state = "active")
+    fl11.grid(row=6 , column=2)
+
+def n ():
+    fl12=Button(ventana   , width = 3, font= ("helvetica" , 24 ),text="1" , command = n )   #3
+    
+    fl12.configure(state = "active")
+    fl12.grid(row=8 , column=2)
+    
+
+def ñ():
+    fl13=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text="1" , command = ñ)   #4
+    fl13.configure(state = "active")
+    fl13.grid(row=10 , column=2)
+
+    
+
+def o():
+    fl14=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text ="1" ,  command = o)   #5
+    
+    fl14.configure(state = "active")
+    fl14.grid(row=12 , column=2)
+
+def p():
+    uno=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ) , text="1" , command =p)
+
+   
+    uno.configure(state = "disabled")
+    uno.grid(row=4 , column=3)
+
+
+def q():
+
+    uno1=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ) ,text ="1" ,  command = q)
+
+    
+    uno1.configure(state = "active")
+    uno1.grid(row=6 , column=3)
+
+    
+
+def r():
+    uno2=Button(ventana  , width = 3, font= ("helvetica" , 24 ) , text ="1" , command = r)
+    uno2.configure(state = "active")
+    uno2.grid(row=8 , column=3)
+
+def s ():
+    uno3=Button(ventana  , width = 3 , font= ("helvetica" , 24 , ) , text ="1" ,command=s  )
+    
+    uno3.configure(state = "active")
+    uno3.grid(row=10 , column=3)
+
+
+    
+    
+
+def t ():
+    uno4=Button(ventana  , width = 3 , font= ("helvetica" , 24 ) , text ="1"  , command =t)
+    
+    uno4.configure(state = "active")
+    uno4.grid(row=12 , column=3)
+
+def u():
+
+    uno1=Button(ventana , width = 3 , font= ("helvetica" , 24) ,text = "1" ,  command =u)   #1
+    
+    uno1.configure(state = "active")
+    uno1.grid(row=4 , column=4)
+
+def v ():
+    uno11=Button(ventana , width = 3 ,font= ("helvetica" , 24) ,text="1" ,  command = v)   #2
+    
+    uno11.configure(state = "active")
+    uno11.grid(row=6 , column=4)
+
+def w ():
+
+    uno21=Button(ventana , width = 3, font= ("helvetica" , 24) ,text ="1" ,  command = w)    #3
+    uno21.configure(state = "active")
+    uno21.grid(row=8 , column=4)
+
+    
+
+def x ():
+
+    
+    uno31=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text ="1" , command =x)   #4
+    
+    uno31.configure(state = "active")
+    uno31.grid(row=10 , column=4)
+
+def y():
+
+    uno41=Button(ventana  , width = 3 , font= ("helvetica" , 24) , text = "1" , command = y )    #5
+
+   
+    uno41.configure(state = "active")
+    uno41.grid(row=12 , column=4)
+
+
+    
+
+
+
+    
+
+    
+
+
+    
+    
+    
+
+    
+    
+    
+
+
+def numeros():
+    one = 1
+
+    fila1=Button(ventana ,width =3 , font= ("helvetica" , 24) , command= a)
+    
+    fila1.configure(state = "active")
+
+
+    fila1.grid(row=4 , column=0)
+
+
+
+
+    fila11=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command=b)  #2
+
+    
+    fila11.configure(state = "active")
+
+    fila11.grid(row=6 , column=0)
+
+    
+
+
+    fila12=Button(ventana , width = 3 , font= ("helvetica" , 24) ,command = cc) #3
+
+    
+    fila12.configure(state = "active")
+        
+    fila12.grid(row= 8, column=0)
+    #-----------------------------------------------------------------------------------------------------------
+
+    fila13=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =d)  #4
+
+    
+    fila13.configure(state = "active")
+    fila13.grid(row=10 , column=0)
+
+
+
+    fila14=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =e)  #5
+
+    
+    fila14.configure(state = "active")
+    fila14.grid(row=12 , column=0)
+
+
+
+    
+
+
+
+    #SEGUNDA FILA
+
+    fil1=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = f)
+
+    fil1.configure(state = "active")
+
+    
+    fil1.grid(row=4 , column=1)
+
+
+
+    fil11=Button(ventana , width = 3 ,font= ("helvetica" , 24)  , command = g)
+    fil11.configure(state = "active")
+    fil11.grid(row=6 , column=1)
+
+
+
+    fil12=Button(ventana , width = 3, font= ("helvetica" , 24) , command = h )
+
+    fil12.configure(state = "active")
+    fil12.grid(row=8 , column=1)
+
+
+    fil13=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = i)
+    fil13.configure(state = "active")
+    fil13.grid(row=10 , column=1)
+
+
+    fil14=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = j )
+    fil14.configure(state = "active")
+    fil14.grid(row=12 , column=1)
+
+
+
+    #TERCER FILA VERTICAL
+
+    #TERCER FILA VERTICAL
+
+
+    fl1=Button(ventana   , width = 3 , font= ("helvetica" , 24) , command= k ) #1
+    if len(acti)==1:
+        fl1.configure(state = "active")
+    fl1.grid(row=4 , column=2)
+
+
+
+    fl11=Button(ventana  , width = 3 ,font= ("helvetica" , 24 ), command =m)  #2
+    if len(acti)==1:
+        fl11.configure(state = "active")
+    fl11.grid(row=6 , column=2)
+
+
+    fl12=Button(ventana   , width = 3, font= ("helvetica" , 24 ), command = n)  #3
+    if len(acti)==1:
+        fl12.configure(state = "active")
+    fl12.grid(row=8 , column=2)
+
+    fl13=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = ñ)   #4
+    if len(acti)==1:
+        fl13.configure(state = "active")
+    fl13.grid(row=10 , column=2)
+
+    fl14=Button(ventana , width = 3 , font= ("helvetica" , 24) , command = o)   #5
+    if len(acti)==1:
+        fl14.configure(state = "active")
+    fl14.grid(row=12 , column=2)
+
+
+
+    #CUARTO FILA VERTICAL
+
+
+    uno=Button(ventana ,  width = 3 , font= ("helvetica" , 24 ), command=p)
+
+    if len(acti)==1:
+        uno.configure(state = "disabled")
+    uno.grid(row=4 , column=3)
+
+
+
+    uno1=Button(ventana   , width = 3 ,font= ("helvetica" , 24 ), command = q)
+
+    if len(acti)==1:
+        uno1.configure(state = "active")
+    uno1.grid(row=6 , column=3)
+
+
+
+    uno2=Button(ventana  , width = 3, font= ("helvetica" , 24 ), command= r)
+    if len(acti)==1:
+        uno2.configure(state = "active")
+    uno2.grid(row=8 , column=3)
+
+
+    uno3=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command=s )
+    if len(acti)==1:
+        uno3.configure(state = "active")
+    uno3.grid(row=10 , column=3)
+
+
+    uno4=Button(ventana  , width = 3 , font= ("helvetica" , 24 ), command =t)
+    if len(acti)==1:
+        uno4.configure(state = "active")
+    uno4.grid(row=12 , column=3)
+
+
+
+
+    #QUINTA FILA VERTICAL
+
+
+
+    uno1=Button(ventana , width = 3 , font= ("helvetica" , 24) , command =u)   #1
+    if len(acti)==1:
+        uno1.configure(state = "active")
+    uno1.grid(row=4 , column=4)
+
+
+
+    uno11=Button(ventana , width = 3 ,font= ("helvetica" , 24) , command = v)   #2
+    if len(acti)==1:
+        uno11.configure(state = "active")
+    uno11.grid(row=6 , column=4)
+
+
+
+    uno21=Button(ventana , width = 3, font= ("helvetica" , 24) , command = w)    #3
+    if len(acti)==1:
+        uno21.configure(state = "active")
+    uno21.grid(row=8 , column=4)
+
+
+    uno31=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command =x)   #4
+    if len(acti)==1:
+        uno31.configure(state = "active")
+    uno31.grid(row=10 , column=4)
+
+
+    uno41=Button(ventana  , width = 3 , font= ("helvetica" , 24) , command = y)    #5
+
+    if len(acti)==1:
+        uno41.configure(state = "active")
+    uno41.grid(row=12 , column=4)
+
+
+
+
+#ACTIVAR BOTONES 
+def iniciar ():
+    acti.append(2)
+
+
+    print(acti)
+
+    print("aaaaa" , len(acti))
+
+    fila1=Button(ventana ,width =3 , font= ("helvetica" , 24))
+    
+    fila1.configure(state = "active")
+
+
+    fila1.grid(row=4 , column=0)
+
+
+
+
+    fila11=Button(ventana  , width = 3 , font= ("helvetica" , 24))  #2
+
+    
+    fila11.configure(state = "active")
+
+    fila11.grid(row=6 , column=0)
+
+
+    fila12=Button(ventana , width = 3 , font= ("helvetica" , 24)) #3
+
+    
+    fila12.configure(state = "active")
+        
+    fila12.grid(row= 8, column=0)
+    #-----------------------------------------------------------------------------------------------------------
+
+    fila13=Button(ventana , width = 3 , font= ("helvetica" , 24))  #4
+
+    
+    fila13.configure(state = "active")
+    fila13.grid(row=10 , column=0)
+
+
+
+    fila14=Button(ventana , width = 3 , font= ("helvetica" , 24))  #5
+
+    
+    fila14.configure(state = "active")
+    fila14.grid(row=12 , column=0)
+
+
+
+    #SEGUNDA FILA
+
+    fil1=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+
+    fil1.configure(state = "active")
+
+    
+    fil1.grid(row=4 , column=1)
+
+
+
+    fil11=Button(ventana , width = 3 ,font= ("helvetica" , 24))
+    fil11.configure(state = "active")
+    fil11.grid(row=6 , column=1)
+
+
+
+    fil12=Button(ventana , width = 3, font= ("helvetica" , 24))
+
+    fil12.configure(state = "active")
+    fil12.grid(row=8 , column=1)
+
+
+    fil13=Button(ventana , width = 3 , font= ("helvetica" , 24))
+    fil13.configure(state = "active")
+    fil13.grid(row=10 , column=1)
+
+
+    fil14=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    fil14.configure(state = "active")
+    fil14.grid(row=12 , column=1)
+
+
+
+    #TERCER FILA VERTICAL
+
+    #TERCER FILA VERTICAL
+
+
+    fl1=Button(ventana   , width = 3 , font= ("helvetica" , 24)) #1
+    if len(acti)==1:
+        fl1.configure(state = "active")
+    fl1.grid(row=4 , column=2)
+
+
+
+    fl11=Button(ventana  , width = 3 ,font= ("helvetica" , 24))  #2
+    if len(acti)==1:
+        fl11.configure(state = "active")
+    fl11.grid(row=6 , column=2)
+
+
+    fl12=Button(ventana   , width = 3, font= ("helvetica" , 24))   #3
+    if len(acti)==1:
+        fl12.configure(state = "active")
+    fl12.grid(row=8 , column=2)
+
+    fl13=Button(ventana , width = 3 , font= ("helvetica" , 24))   #4
+    if len(acti)==1:
+        fl13.configure(state = "active")
+    fl13.grid(row=10 , column=2)
+
+    fl14=Button(ventana , width = 3 , font= ("helvetica" , 24))   #5
+    if len(acti)==1:
+        fl14.configure(state = "active")
+    fl14.grid(row=12 , column=2)
+
+
+
+    #CUARTO FILA VERTICAL
+
+
+    uno=Button(ventana ,  width = 3 , font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        uno.configure(state = "disabled")
+    uno.grid(row=4 , column=3)
+
+
+
+    uno1=Button(ventana   , width = 3 ,font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        uno1.configure(state = "active")
+    uno1.grid(row=6 , column=3)
+
+
+
+    uno2=Button(ventana  , width = 3, font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno2.configure(state = "active")
+    uno2.grid(row=8 , column=3)
+
+
+    uno3=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno3.configure(state = "active")
+    uno3.grid(row=10 , column=3)
+
+
+    uno4=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno4.configure(state = "active")
+    uno4.grid(row=12 , column=3)
+
+
+
+
+    #QUINTA FILA VERTICAL
+
+
+
+    uno1=Button(ventana , width = 3 , font= ("helvetica" , 24))   #1
+    if len(acti)==1:
+        uno1.configure(state = "active")
+    uno1.grid(row=4 , column=4)
+
+
+
+    uno11=Button(ventana , width = 3 ,font= ("helvetica" , 24))   #2
+    if len(acti)==1:
+        uno11.configure(state = "active")
+    uno11.grid(row=6 , column=4)
+
+
+
+    uno21=Button(ventana , width = 3, font= ("helvetica" , 24))    #3
+    if len(acti)==1:
+        uno21.configure(state = "active")
+    uno21.grid(row=8 , column=4)
+
+
+    uno31=Button(ventana  , width = 3 , font= ("helvetica" , 24))   #4
+    if len(acti)==1:
+        uno31.configure(state = "active")
+    uno31.grid(row=10 , column=4)
+
+
+    uno41=Button(ventana  , width = 3 , font= ("helvetica" , 24))    #5
+
+    if len(acti)==1:
+        uno41.configure(state = "active")
+    uno41.grid(row=12 , column=4)
+
+
+    #OPCIONES VERSION 2
+
+
+    circulo1 = Button (ventana , text="1"  , activebackground= "GREEN" , command= numeros )
+
+    
+
+    circulo1.grid(row=5 , column=7)
+
+
+    circulo2 = Button (ventana , text="2" , activebackground= "GREEN"  , command = numeros2)
+
+    circulo2.grid(row=7 , column=7)
+
+    circulo3 = Button (ventana , text="3" , activebackground= "GREEN" , command = numeros3 )
+
+    circulo3.grid(row=9 , column=7)
+
+
+    circulo4 = Button (ventana , text="4" , activebackground= "GREEN" )
+
+    circulo4.grid(row=11 , column=7)
+
+
+    circulo5 = Button (ventana , text="5" , activebackground= "GREEN" )
+
+    circulo5.grid(row=13 , column=7)
+
+    opciones2(fila1)
+
+
+    
+
+    return acti
+
+
+   
+def bu():
+    text= fila1.get()
+    semilla ="1"
+    if text == str(semilla):
+        print(semilla)
+
+    else:
+        print("dddd")
+
+        
+
+
+def jefe():
+
+    conta =0
+    
+    a=n2.get()
+
+    for e in a :
+        conta = conta +1 
+        print(e)
+
+    if conta > 20:
+        v2 =Tk()
+        v2.config(bg = "GREY")
+        v2.geometry("370x30")
+        infoerror=Label(v2 , text = "ERROR : EL NOMBRE DEBE SER MENOR A 20 CARACTERES")
+
+        infoerror.grid(row=3 , column=2)
+
+    if conta == 0:
+        v2 =Tk()
+        v2.config(bg = "GREY")
+        v2.geometry("370x30")
+        infoerror=Label(v2 , text = "ERROR : INTRODUCE TU NOMBRE ")
+
+        infoerror.grid(row=3 , column=2)
+        
+
+         
+    semilla=0
+
+    return 
+    
+    
+
+
+
+
+#BOTONES DE ABAJO
+
+def opciones(acti):
+
+    acti = acti
+    
+    #PRIMERA FILA VERTICAL
+     
+    fila1=Button(ventana ,width =3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        fila1.configure(state = "disabled")
+
+
+    fila1.grid(row=4 , column=0)
+
+
+    fila11=Button(ventana  , width = 3 , font= ("helvetica" , 24))  #2
+
+    if len(acti)==1:
+        fila11.configure(state = "disabled")
+
+    fila11.grid(row=6 , column=0)
+
+
+    fila12=Button(ventana , width = 3 , font= ("helvetica" , 24)) #3
+
+    if len(acti)==1:
+        fila12.configure(state = "disabled")
+        
+    fila12.grid(row= 8, column=0)
+    #-----------------------------------------------------------------------------------------------------------
+
+    fila13=Button(ventana , width = 3 , font= ("helvetica" , 24))  #4
+
+    if len(acti)==1:
+        fila13.configure(state = "disabled")
+    fila13.grid(row=10 , column=0)
+
+
+
+    fila14=Button(ventana , width = 3 , font= ("helvetica" , 24))  #5
+
+    if len(acti)==1:
+        fila14.configure(state = "disabled")
+    fila14.grid(row=12 , column=0)
+
+
+    #SEGUNDA FILA VERTICAL
+
+
+
+    fil1=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        fil1.configure(state = "disabled")
+    fil1.grid(row=4 , column=1)
+
+
+
+    fil11=Button(ventana , width = 3 ,font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        fil11.configure(state = "disabled")
+
+    fil11.grid(row=6 , column=1)
+
+
+
+    fil12=Button(ventana , width = 3, font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        fil12.configure(state = "disabled")
+    fil12.grid(row=8 , column=1)
+
+
+    fil13=Button(ventana , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        fil13.configure(state = "disabled")
+    fil13.grid(row=10 , column=1)
+
+
+    fil14=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        fil14.configure(state = "disabled")
+    fil14.grid(row=12 , column=1)
+
+
+
+    #TERCER FILA VERTICAL
+
+
+    fl1=Button(ventana   , width = 3 , font= ("helvetica" , 24)) #1
+    if len(acti)==1:
+        fl1.configure(state = "disabled")
+    fl1.grid(row=4 , column=2)
+
+
+
+    fl11=Button(ventana  , width = 3 ,font= ("helvetica" , 24))  #2
+    if len(acti)==1:
+        fl11.configure(state = "disabled")
+    fl11.grid(row=6 , column=2)
+
+
+    fl12=Button(ventana   , width = 3, font= ("helvetica" , 24))   #3
+    if len(acti)==1:
+        fl12.configure(state = "disabled")
+    fl12.grid(row=8 , column=2)
+
+    fl13=Button(ventana , width = 3 , font= ("helvetica" , 24))   #4
+    if len(acti)==1:
+        fl13.configure(state = "disabled")
+    fl13.grid(row=10 , column=2)
+
+    fl14=Button(ventana , width = 3 , font= ("helvetica" , 24))   #5
+    if len(acti)==1:
+        fl14.configure(state = "disabled")
+    fl14.grid(row=12 , column=2)
+
+
+
+    #CUARTO FILA VERTICAL
+
+
+    uno=Button(ventana ,  width = 3 , font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        uno.configure(state = "disabled")
+    uno.grid(row=4 , column=3)
+
+
+
+    uno1=Button(ventana   , width = 3 ,font= ("helvetica" , 24))
+
+    if len(acti)==1:
+        uno1.configure(state = "disabled")
+    uno1.grid(row=6 , column=3)
+
+
+
+    uno2=Button(ventana  , width = 3, font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno2.configure(state = "disabled")
+    uno2.grid(row=8 , column=3)
+
+
+    uno3=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno3.configure(state = "disabled")
+    uno3.grid(row=10 , column=3)
+
+
+    uno4=Button(ventana  , width = 3 , font= ("helvetica" , 24))
+    if len(acti)==1:
+        uno4.configure(state = "disabled")
+    uno4.grid(row=12 , column=3)
+
+
+
+
+    #QUINTA FILA VERTICAL
+
+
+
+    uno1=Button(ventana , width = 3 , font= ("helvetica" , 24))   #1
+    if len(acti)==1:
+        uno1.configure(state = "disabled")
+    uno1.grid(row=4 , column=4)
+
+
+
+    uno11=Button(ventana , width = 3 ,font= ("helvetica" , 24))   #2
+    if len(acti)==1:
+        uno11.configure(state = "disabled")
+    uno11.grid(row=6 , column=4)
+
+
+
+    uno21=Button(ventana , width = 3, font= ("helvetica" , 24))    #3
+    if len(acti)==1:
+        uno21.configure(state = "disabled")
+    uno21.grid(row=8 , column=4)
+
+
+    uno31=Button(ventana  , width = 3 , font= ("helvetica" , 24))   #4
+    if len(acti)==1:
+        uno31.configure(state = "disabled")
+    uno31.grid(row=10 , column=4)
+
+
+    uno41=Button(ventana  , width = 3 , font= ("helvetica" , 24))    #5
+
+    if len(acti)==1:
+        uno41.configure(state = "disabled")
+    uno41.grid(row=12 , column=4)
+
+
+
+    #NUMEROS DE LA DERECHA
+
+
+
+
+    circulo1 = Button (ventana , text="1"  , activebackground= "GREEN"  ) 
+    circulo1.grid(row=5 , column=7)
+
+
+    circulo2 = Button (ventana , text="2" , activebackground= "GREEN" )
+
+    circulo2.grid(row=7 , column=7)
+
+    circulo3 = Button (ventana , text="3" , activebackground= "GREEN" )
+
+    circulo3.grid(row=9 , column=7)
+
+
+    circulo4 = Button (ventana , text="4" , activebackground= "GREEN" )
+
+    circulo4.grid(row=11 , column=7)
+
+
+    circulo5 = Button (ventana , text="5" , activebackground= "GREEN" )
+
+    circulo5.grid(row=13 , column=7)
+
+    opciones2(fila1)
+
+
+
+
+
+
+def opciones2(fila1):
+
+    f = fila1 
+    
+    iniciarjuego= Button(ventana , text ="INICAR JUEGO" , bg = "RED" , command= iniciar)
+    iniciarjuego.grid(row=14 , column=0)
+
+    borrarjugada =Button(ventana , text = "BORRAR JUGADA"  , bg= "BLUE")
+    borrarjugada.grid(row=14 , column=1)
+
+    terminarjuego=Button(ventana , text="TERMINAR JUEGO" , bg ="GREEN" )
+    terminarjuego.grid(row=14 , column=2)
+
+    borrarjuego=Button(ventana , text ="BORRAR JUEGO" , bg ="GREY")
+    borrarjuego.grid(row=14 , column=3)
+
+
+    top=Button(ventana , text = "TOP" , bg= "YELLOW")
+    top.grid(row=14 , column=4)
+
+    top1=Button(ventana , text = "  AMOR" , bg= "YELLOW")
+    top1.grid(row=14 , column=4)
+    
+    ventana.mainloop()
+
+
+
+#CONFIGURACION DE LA VENTANA
+    
+ventana=Tk()
+ventana.geometry("600x600")
+ventana.config(bg="black")
+titulo= Label(ventana , text= "FUTOSHIKI"  , bg ="RED")
+titulo.grid(row=1 , column=3)
+
+acti = [1]
+
+#TEXTO DE NOMBRE DE JUGADOR
+nombre= Label(ventana , text="Nombre de jugador:")
+nombre.grid(row=2 , column=0)
+
+#COLOCAR EL NOMBRE
+n2=Entry(ventana ,  width = 20  )
+n2.grid(row=2 , column=1)
+
+
+#BOTON PARA GUARDAR
+c = Button (ventana , text="ACEPTAR" , command=jefe )
+
+c.grid(row=3 , column=0)
+nombre=n2.get()
+print(nombre)
+
+acti=[1]
+opciones(acti)
+
+ventana.mainloop()
+
+
+
+
+    
+
+
+
